@@ -1,0 +1,145 @@
+@media (max-width: 480px){
+    .frame1{
+        height: 100vh;
+    }
+    .navbar{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        gap: 0px;
+    }
+    .brand{
+        padding: 1rem;
+    }
+    .navLinks{
+        display: flex;
+        margin-left: 2rem;
+    }
+    .navLinks a{
+        font-size: 20px;
+    }
+    .navSelect{
+        font-size: 20px;
+        width: 35%;
+        margin-left: 5px;
+    }
+    .navBtn a{
+        font-size: 20px;
+    }
+    .navBtn button{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .landingPage{
+        margin-top: 0rem;
+        padding: 0px;
+        width: 100%;
+    }
+    .frame1Text{
+     justify-content: center;
+     margin-right: 13rem;
+        padding: 0px;
+        width: 200px;
+    }
+    .frame1Text h1{
+        display: flex;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 30px;
+        line-height: 30px;
+        width: 180%;
+    }
+    .frame1Img img{
+        width: 0%;
+    }
+    .frame1Text p{
+        display: flex;
+        font-size: 14px;
+        width: 180%;
+        line-height: 30px;
+        text-align: center;
+    }
+    .frame1btn{
+        gap: 30px;
+        width: 180%;
+    }
+    .frame1btn button{
+        font-size: 15px;
+        width: 180%;
+    }
+    .logoContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        background: white;
+        height: 12vh;
+    }
+    .logoText{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    .logo img{
+        width: 55px;
+    }
+    .frame2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 150vh;
+        gap: 0rem;
+    }
+    .frame2Text{
+        flex-direction: column;
+        background: none;
+        gap: 0px;
+        width: 100%;
+    }
+    .frame2Text1{
+        justify-content: space-between;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .text1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        width: 380px;
+        gap: 100px;
+    }
+    .text2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        width: 380px;
+        gap: 100px;
+    }
+    .frame2Text2{
+        gap: 20px;
+        margin-top: 1rem;
+    }
+    .frame2Text3{
+        width: 90%;
+        text-align: center;
+    }
+    .frame2Text3 h1{
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        margin-top: 5rem;
+    }
+}
