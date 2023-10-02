@@ -142,4 +142,10 @@
         line-height: 40px;
         margin-top: 5rem;
     }
+    .frameCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5rem;
+    }
 }
