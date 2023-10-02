@@ -451,6 +451,10 @@ font-family: 'Open Sans', sans-serif;
     height: 5vh;
     border-radius: 5px;
 }
+.cardBtn button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .frame4{
     display: flex;
     align-items: center;
@@ -467,17 +471,16 @@ font-family: 'Open Sans', sans-serif;
 .frameBox{
     display: flex;
     gap: 50px;
-    width: 100%;
+    width: 80%;
     align-items: center;
     justify-content: center;
-    margin-left: 16rem;
 }
+
 .frame4Box1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 50vh;
-    width: 50%;
     background: #fff;
     margin-top: 4rem;
     padding: 0px 40px;
@@ -503,7 +506,7 @@ font-family: 'Open Sans', sans-serif;
     flex-direction: column;
     justify-content: center;
     height: 35vh;
-    width: 70%;
+
     background: #fff;
     margin-top: 4rem;
     padding: 0px 40px;
@@ -523,4 +526,58 @@ font-family: 'Open Sans', sans-serif;
 .frame4Box2 h2{
     font-size: 15px;
     color: #636262;
+}
+.baseline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    background: url(/Assets/Group\ 42.png);
+    height: 40vh;
+    
+}
+.baseline h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    width: 60%;
+    text-align: center;
+}
+.baselineBtn{
+    display: flex;
+    gap: 30px;
+    margin-top: 2rem;
+    
+}
+
+.btn1{
+    color: #fff;
+    border:solid 1px #fff;
+    background: none;
+    height: 60px;
+    width: 147px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: #5a9974;
+    background: #ffffff6a;
+    transform: scale(1.1);
+}
+.btn2{
+    color: #000;
+    border:solid 1px #fff;
+    background: #fff;
+    height: 60px;
+    width: 147px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn2:hover{
+    color: #5a9974;
+    background: #ffffff6b;
+    transform: scale(1.1);
 }
